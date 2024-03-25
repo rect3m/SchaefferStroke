@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SchaefferStroke</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/buttons.css">
+</head>
+<body class="background">
+<h1 align="center">Штрих Шеффера</h1>
+
+<div class="main-content">
+
+  <div prediction-container-nand>
+    <form id="predictionForm" class="input">
+      <label for="input1-nand">Ввід 1:</label>
+      <input type="text" id="input1-nand" name="input1-nand">
+      <label for="input2-nand">Ввід 2:</label>
+      <input type="text" id="input2-nand" name="input2-nand">
+      <button type="submit" class="buttons">Виконати</button>
+    </form>
+
+    <div id="predictionResult" class="inputResult">
+    </div>
+  </div>
+
+  <div id="trainingResults" class="trainingResult">
+  </div>
+</div>
+
+<script src="../scripts/neural_network_nand.js"></script>
+</body>
+</html>
